@@ -245,7 +245,7 @@ function FormSplitBill({
       />
 
       <label>🤑Who is paying the bill ?</label>
-      <select value={billPayer} onChange={(e) => setBillPayer(+e.target.value)}>
+      <select value={billPayer} onChange={(e) => setBillPayer(e.target.value)}>
         <option value={0}>You</option>
         <option value={friend[0].id}>{`${friend[0].name}`}</option>
       </select>
