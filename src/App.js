@@ -211,8 +211,7 @@ function FormSplitBill({
 
     // setBill("");
     // setYourExpense("");
-    // setBillPayer(0);
-    // power of state
+    setBillPayer(0);
     setSelectedFriend(null);
   }
 
