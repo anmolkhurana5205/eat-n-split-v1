@@ -222,7 +222,7 @@ function FormSplitBill({
       <input
         type="number"
         value={bill}
-        onChange={(e) => setBill(e.target.value)}
+        onChange={(e) => setBill(+e.target.value)}
       />
 
       <label>🧍🏻Your expense</label>
@@ -231,7 +231,7 @@ function FormSplitBill({
         value={yourExpense}
         onChange={(e) =>
           setYourExpense((yourExpense) =>
-            +e.target.value > bill ? yourExpense : e.target.value
+            +e.target.value > bill ? yourExpense : +e.target.value
           )
         }
       />
@@ -244,7 +244,7 @@ function FormSplitBill({
       />
 
       <label>🤑Who is paying the bill ?</label>
-      <select value={billPayer} onChange={(e) => setBillPayer(e.target.value)}>
+      <select value={billPayer} onChange={(e) => setBillPayer(+e.target.value)}>
         <option value={0}>You</option>
         <option value={friend[0].id}>{`${friend[0].name}`}</option>
       </select>
