@@ -6,8 +6,8 @@
 A simple and interactive Bill Splitting App built using React that helps you manage shared expenses with friends. You can add friends, select who you’re splitting the bill with, enter expenses, and instantly see who owes whom and how much.
 
 ### 🚀 Features
-🧍 Add and manage multiple friends
-💰 Split bills dynamically and calculate balances
-🔄 Real-time UI updates on selection and expense changes
-🧮 Automatically determine who owes whom
-✨ Clean, responsive, and user-friendly interface
+- Add and manage multiple friends
+- Split bills dynamically and calculate balances
+- Real-time UI updates on selection and expense changes
+- Automatically determine who owes whom
+- Clean, responsive, and user-friendly interface
